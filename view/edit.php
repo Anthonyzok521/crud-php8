@@ -18,6 +18,7 @@
 </head>
 <body>
 <form class="col-4 p-3" method="POST">
+    <?php include '../controller/edit.php'; ?>
             <fieldset>
                 <legend>Insert new student</legend>
 
