@@ -69,8 +69,8 @@
                         <td><?=$data->lastname?></td>
                         <td><?=$data->ci?></td>
                         <td>
-                            <a href="/edit" class="btn btn-info "><i class="fi fi-rs-user-pen"></i></a>
-                            <a href="/delete" class="btn btn-danger "><i class="fi fi-rs-remove-user"></i></a>
+                            <a href="view/edit.php?id=<?php echo $data->id ?>" class="btn btn-info "><i class="fi fi-rs-user-pen"></i></a>
+                            <a href="view/delete.php" class="btn btn-danger "><i class="fi fi-rs-remove-user"></i></a>
                         </td>
                     </tr>
                     <?php } ?>
